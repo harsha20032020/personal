@@ -1,1 +1,32 @@
-@import url(./fonts.css);
+@import url(fonts.css);
+
+.navbar-brand {
+    font-family: 'Raleway';
+    font-weight: 1000;
+    font-size: xx-large;
+    text-transform:uppercase;
+    padding:1.5rem; 
+    color:black;
+    position:relative; bottom:20px;
+    background: linear-gradient(90deg, #002fff 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.head_area .main-menu .nav-item .nav-link{
+    font-family: 'Raleway';
+    font-size:x-large;
+    font-weight: 550;
+    position:relative; bottom:20px;
+    text-transform:uppercase;
+    padding:1.5rem;
+    color:black;
+}
+
+.nav-item a:hover{
+    background: linear-gradient(90deg, #002fff 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
