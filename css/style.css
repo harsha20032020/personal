@@ -1,43 +1,113 @@
 @import url(fonts.css);
 
+/* =================== first page ======================= */
 .navbar-brand {
-    font-family: 'Raleway';
-    font-weight: 1000;
-    font-size: xx-large;
-    text-transform:uppercase;
-    padding:1.5rem; 
-    color:#FFFFFF;
-    position:relative; bottom:20px;
-    background: linear-gradient(90deg, #00FF00 0%, #FF00FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  font-family: "Raleway";
+  font-weight: 1000;
+  font-size: xx-large;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  color: #ffffff;
+  position: relative;
+  bottom: 20px;
+  background: linear-gradient(90deg, #00ff00 0%, #ff00ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.head_area .main-menu .nav-item .nav-link{
-    font-family: 'Raleway';
-    font-size:x-large;
-    font-weight: 550;
-    position:relative; bottom:20px;
-    text-transform:uppercase;
-    padding:1.5rem;
-    color:#FFFFFF;
+.head_area .main-menu .nav-item .nav-link {
+  font-family: "Raleway";
+  font-size: x-large;
+  font-weight: 550;
+  position: relative;
+  bottom: 20px;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  color: #ffffff;
 }
 
-.nav-item a:hover{
-    background: linear-gradient(90deg, #00FF00 0%, #FF00FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.nav-item a:hover {
+  background: linear-gradient(90deg, #00ff00 0%, blue 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-.title-text{
-    font-family: 'Raleway';
-    font-style: italic;
-    color:#FFFFFF;
-} 
-
-.background {    
-    background: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80') no-repeat center fixed;     
-    background-size: cover;
+.title-text {
+  font-family: "Raleway";
+  font-style: italic;
+  font-size: 50px;
+  position: relative; top: 100px;
+  color: #ffffff;
+}
+.background {
+  background: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80")
+    no-repeat center fixed;
+  background-size: cover;
+}
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: transform .2s;
+    font-family: "Raleway";
+    position: relative; top: 100px;
+    /* color: #ffffff; */
+}
+.button:hover {
+  color:blueviolet;
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* =================== first page end ======================= */
+/* =================== second page  ======================= */
+.site-main .site-banner .site-title h3::after {
+  content: " ";
+  height: 2px;
+  width: 18vw;
+  background: white;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
 }
 
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 7rem 0;
+  width: 90rem;
+}
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/ 60px var(--roboto);
+  letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  color: #ffffff;
+  padding: 0.4rem 0;
+  /* font-family: "Raleway"; */
+  /* font-style: italic; */
+}
+.about-title {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: larger;
+}
+/* =================== second page end ======================= */
