@@ -28,7 +28,7 @@
 }
 
 .nav-item a:hover {
-  background: linear-gradient(90deg, #00ff00 0%, blue 100%);
+  background: linear-gradient(90deg, #00ff00 0%, rgb(161, 161, 245) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -60,6 +60,20 @@
     font-family: "Raleway";
     position: relative; top: 100px;
     /* color: #ffffff; */
+}
+.button1{
+  background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: transform .2s;
+    font-family: "Raleway";
 }
 .button:hover {
   color:blueviolet;
