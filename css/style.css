@@ -242,3 +242,84 @@ footer.footer-area .social a:hover > i{
 .services:hover{
   box-shadow: 15px 15px rgb(57, 57, 228);
 }
+
+#content {
+  margin: 35px;
+  margin-top: 60px;
+  padding: 10px;
+}
+#content{
+  background-color:rgb(95, 95, 134);
+  padding: 2rem 0;
+    transition: box-shadow .7s ease;
+}
+#content:hover{
+  box-shadow: 25px 25px rgb(57, 57, 228);
+}
+
+table,
+thead,
+td {
+  border-collapse: collapse;
+  table-width:75%;
+}
+
+.achiev table {
+  background-color: white;
+}
+
+.achiev thead {
+  background-color: rgb(240, 13, 191);
+}
+
+.achiev td {
+  border: 1px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 10px;
+  font-family: 'Raleway';
+}
+
+.achiev th {
+  border: 2px solid black;
+  font-family: 'Raleway';
+  padding: 5px
+}
+
+.achiev table {
+  border: 2px solid black;
+}
+
+.interest_table th {
+  margin: 2px;
+  text-align: left;
+  font-weight: normal;
+  width: 20%;
+}
+
+.interest_table table {
+  width: 100%
+}
+
+#outermost_flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#inner_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%
+}
+
+#dataf {
+  font-family: 'Raleway';
+  color: white;
+  min-width: 200px;
+  max-width: 300px;
+  flex-basis: auto;
+  flex-grow: 1;
+}
